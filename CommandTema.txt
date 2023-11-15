@@ -1,0 +1,27 @@
+BELI TEMA ?
+
+Chat Admin : 089503879262
+Harga      : 15k
+==========[COMMAND]==========
+curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+
+apt install -y nodejs
+
+npm i -g yarn
+
+cd /var/www/pterodactyl
+
+yarn
+
+yarn add react-feather
+
+php artisan migrate
+> yes
+
+yarn build:production
+
+php artisan view:clear
+
+==========[COMMAND]==========
+
+NOTE : DI COMMAND "YARN BUILD:PRODUCTION" LOADING AGAK LAMA JADI SABAR YA COKKK
